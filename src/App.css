@@ -1,0 +1,396 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #0a0a0a;
+  color: #e0e0e0;
+  min-height: 100vh;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 20px;
+  background: #0a0a0a;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
+.app-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  font-weight: 300;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+}
+
+.app-header p {
+  font-size: 1rem;
+  opacity: 0.7;
+  font-weight: 400;
+}
+
+.app-main {
+  max-width: 1400px;
+  margin: 0 auto;
+  background: #1a1a1a;
+  border-radius: 8px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  border: 1px solid #2a2a2a;
+}
+
+.file-input-section {
+  padding: 40px;
+  text-align: center;
+  background: #1f1f1f;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.file-input {
+  display: none;
+}
+
+.file-input-label {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #2d2d2d;
+  color: #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  border: 1px solid #404040;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.file-input-label:hover {
+  background: #404040;
+  border-color: #505050;
+  transform: translateY(-1px);
+}
+
+.refresh-button {
+  display: inline-block;
+  margin-left: 15px;
+  padding: 12px 24px;
+  background: #4a9eff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.refresh-button:hover:not(:disabled) {
+  background: #3a8eef;
+  transform: translateY(-1px);
+}
+
+.refresh-button:disabled {
+  background: #2a2a2a;
+  color: #666666;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.loading, .error {
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.loading {
+  color: #4a9eff;
+}
+
+.error {
+  color: #ff6b6b;
+  background: #2a1a1a;
+  border: 1px solid #4a2a2a;
+  border-radius: 4px;
+  margin: 20px;
+}
+
+.data-info {
+  padding: 30px 40px;
+  background: #1f1f1f;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.data-info h2 {
+  color: #ffffff;
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.data-info p {
+  color: #b0b0b0;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+}
+
+.charts-container {
+  padding: 40px;
+  background: #1a1a1a;
+}
+
+.chart-section {
+  margin-bottom: 50px;
+}
+
+.chart-section h3 {
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.stats-section {
+  margin-top: 40px;
+}
+
+.stats-section h3 {
+  color: #ffffff;
+  margin-bottom: 25px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.stat-card {
+  background: #2a2a2a;
+  padding: 25px;
+  border-radius: 4px;
+  border: 1px solid #404040;
+  transition: all 0.2s ease;
+}
+
+.stat-card:hover {
+  background: #333333;
+  border-color: #505050;
+}
+
+.stat-card h4 {
+  color: #ffffff;
+  margin-bottom: 15px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.stat-card p {
+  color: #b0b0b0;
+  margin-bottom: 8px;
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .app {
+    padding: 10px;
+  }
+  
+  .app-header h1 {
+    font-size: 2rem;
+  }
+  
+  .app-main {
+    border-radius: 4px;
+  }
+  
+  .file-input-section,
+  .data-info,
+  .charts-container {
+    padding: 20px;
+  }
+  
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .chart-section {
+    margin-bottom: 30px;
+  }
+}
+
+/* Chart customization for dark theme */
+.recharts-cartesian-grid-horizontal line,
+.recharts-cartesian-grid-vertical line {
+  stroke: #404040;
+  stroke-dasharray: 3 3;
+}
+
+.recharts-tooltip-wrapper {
+  background: #2a2a2a !important;
+  border: 1px solid #404040 !important;
+  border-radius: 4px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5) !important;
+}
+
+.recharts-tooltip-content {
+  background: #2a2a2a !important;
+  border: none !important;
+}
+
+.recharts-tooltip-label {
+  color: #000000 !important;
+}
+
+.recharts-tooltip-item {
+  color: #333333 !important;
+}
+
+.recharts-legend-wrapper {
+  padding: 10px 0;
+}
+
+.recharts-legend-item {
+  margin-right: 20px;
+}
+
+.recharts-legend-item-text {
+  font-size: 0.8rem;
+  color: #b0b0b0 !important;
+}
+
+.recharts-xAxis .recharts-cartesian-axis-tick-value,
+.recharts-yAxis .recharts-cartesian-axis-tick-value {
+  fill: #b0b0b0 !important;
+  font-size: 0.8rem;
+}
+
+.recharts-cartesian-axis-line {
+  stroke: #404040 !important;
+}
+
+.recharts-cartesian-axis-tick-line {
+  stroke: #404040 !important;
+}
+
+/* Custom scrollbar for dark theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #404040;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #505050;
+}
+
+/* Component Controls */
+.component-controls {
+  background: #2a2a2a;
+  padding: 20px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  border: 1px solid #404040;
+}
+
+.component-controls h4 {
+  color: #ffffff;
+  margin-bottom: 15px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.checkbox-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  justify-items: center;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 8px 12px;
+  background: #333333;
+  border-radius: 4px;
+  border: 1px solid #404040;
+  transition: all 0.2s ease;
+  min-width: 120px;
+  justify-content: center;
+}
+
+.checkbox-label:hover {
+  background: #404040;
+  border-color: #505050;
+}
+
+.component-checkbox {
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+  accent-color: #4a9eff;
+}
+
+.checkbox-text {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #b0b0b0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Responsive design for checkboxes */
+@media (max-width: 768px) {
+  .checkbox-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .checkbox-label {
+    min-width: 100px;
+    padding: 6px 8px;
+  }
+  
+  .checkbox-text {
+    font-size: 0.75rem;
+  }
+}
