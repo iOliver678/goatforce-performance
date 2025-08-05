@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react'
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts'
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, ReferenceLine } from 'recharts'
 import './App.css'
 
 function App() {
@@ -46,6 +46,8 @@ function App() {
     return data.runs.map((run, index) => {
       const timestamp = new Date(run.timestamp)
       const formattedTime = timestamp.toLocaleTimeString()
+      const isParallel = index >= 22 // Run 23 (0-indexed) and after
+      const isGmailApi = index >= 73 // Run 74 (0-indexed) and after
       
       return {
         name: `Run ${index + 1}`,
@@ -57,7 +59,9 @@ function App() {
         personality: run.component_times.personality,
         einstein: run.component_times.einstein,
         total: run.component_times.total,
-        success: run.success
+        success: run.success,
+        isParallel: isParallel,
+        isGmailApi: isGmailApi
       }
     })
   }
@@ -209,6 +213,9 @@ function App() {
 
             <div className="chart-section">
               <h3>Total Performance Over Time</h3>
+              <div className="processing-note">
+                <p><strong>Note:</strong> Red dashed line indicates the start of parallel processing (Run 23). Green dashed line indicates the switch to Gmail API (Run 74). Before Run 23, components were processed sequentially.</p>
+              </div>
               <ResponsiveContainer width="100%" height={700}>
                 <LineChart data={chartData}>
                   <CartesianGrid strokeDasharray="3 3" />
@@ -222,6 +229,32 @@ function App() {
                   <Tooltip 
                     formatter={(value) => [`${value.toFixed(2)}s`, 'Total Time']}
                     labelFormatter={(label) => `${label} (${chartData.find(d => d.name === label)?.timestamp})`}
+                  />
+                  <ReferenceLine 
+                    x="Run 23" 
+                    stroke="#ff6b6b" 
+                    strokeDasharray="5 5" 
+                    strokeWidth={2}
+                    label={{ 
+                      value: "PARALLEL PROCESSING START", 
+                      position: 'top',
+                      fill: '#ff6b6b',
+                      fontSize: 12,
+                      fontWeight: 'bold'
+                    }}
+                  />
+                  <ReferenceLine 
+                    x="Run 74" 
+                    stroke="#50c878" 
+                    strokeDasharray="5 5" 
+                    strokeWidth={2}
+                    label={{ 
+                      value: "GMAIL API SWITCH", 
+                      position: 'top',
+                      fill: '#50c878',
+                      fontSize: 12,
+                      fontWeight: 'bold'
+                    }}
                   />
                   <Line 
                     type="monotone" 
