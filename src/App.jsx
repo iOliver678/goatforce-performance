@@ -19,8 +19,8 @@ function App() {
     setError(null)
     
     try {
-      // Use the full server URL since we're running in dev mode
-      const response = await fetch('http://localhost:3001/performance-data')
+      // Load the JSON file from the public directory
+      const response = await fetch('/performance.json')
       if (!response.ok) {
         throw new Error('Failed to load performance data')
       }

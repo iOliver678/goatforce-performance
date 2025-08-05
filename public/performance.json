@@ -1,0 +1,1492 @@
+{
+    "runs": [
+      {
+        "timestamp": "2025-07-14T20:00:12.234567", 
+        "deal_id": "17",
+        "component_times": {
+          "slack_mcp": 55.45623100402832,
+          "gmail_mcp": 115.32490704536438,
+          "personality": 18.925123834609985,
+          "einstein": 25.181757926940918,
+          "total": 214.88802181094436
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-14T20:04:45.123456",
+        "deal_id": "18", 
+        "component_times": {
+          "slack_mcp": 52.16215715408325,
+          "gmail_mcp": 118.51380200386047,
+          "personality": 19.145873165130615,
+          "einstein": 24.854273796081543,
+          "total": 194.67610611915588
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-14T20:08:12.234567",
+        "deal_id": "19",
+        "component_times": {
+          "slack_mcp": 54.45623100402832,
+          "gmail_mcp": 62.32490704536438,
+          "personality": 20.925123834609985,
+          "einstein": 23.181757926940918,
+          "total": 138.88802181094436
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-14T20:12:45.123456",
+        "deal_id": "20",
+        "component_times": {
+          "slack_mcp": 53.16215715408325,
+          "gmail_mcp": 116.51380200386047,
+          "personality": 18.145873165130615,
+          "einstein": 24.854273796081543,
+          "total": 232.67610611915588
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-14T20:16:12.234567",
+        "deal_id": "21", 
+        "component_times": {
+          "slack_mcp": 56.45623100402832,
+          "gmail_mcp": 114.32490704536438,
+          "personality": 19.925123834609985,
+          "einstein": 22.181757926940918,
+          "total": 182.88802181094436
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-14T20:20:45.123456",
+        "deal_id": "22",
+        "component_times": {
+          "slack_mcp": 54.16215715408325,
+          "gmail_mcp": 115.51380200386047,
+          "personality": 20.145873165130615,
+          "einstein": 23.854273796081543,
+          "total": 243.67610611915588
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-14T20:24:12.234567",
+        "deal_id": "23",
+        "component_times": {
+          "slack_mcp": 53.45623100402832,
+          "gmail_mcp": 113.32490704536438,
+          "personality": 21.925123834609985,
+          "einstein": 24.181757926940918,
+          "total": 162.88802181094436
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-14T20:28:45.123456",
+        "deal_id": "24",
+        "component_times": {
+          "slack_mcp": 55.16215715408325,
+          "gmail_mcp": 114.51380200386047,
+          "personality": 19.145873165130615,
+          "einstein": 22.854273796081543,
+          "total": 191.67610611915588
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-14T20:32:12.234567",
+        "deal_id": "25",
+        "component_times": {
+          "slack_mcp": 52.45623100402832,
+          "gmail_mcp": 116.32490704536438,
+          "personality": 20.925123834609985,
+          "einstein": 23.181757926940918,
+          "total": 142.88802181094436
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-14T20:36:45.123456",
+        "deal_id": "26",
+        "component_times": {
+          "slack_mcp": 54.16215715408325,
+          "gmail_mcp": 115.51380200386047,
+          "personality": 18.145873165130615,
+          "einstein": 24.854273796081543,
+          "total": 252.67610611915588
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-14T20:09:23.345678",
+        "deal_id": "19",
+        "component_times": {
+          "slack_mcp": 40.76345100402832,
+          "gmail_mcp": 98.59490704536438,
+          "personality": 9.525123834609985,
+          "einstein": 24.181757926940918,
+          "total": 173.06523981094436
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-14T20:13:56.456789", 
+        "deal_id": "20",
+        "component_times": {
+          "slack_mcp": 38.96215715408325,
+          "gmail_mcp": 85.31380200386047,
+          "personality": 8.945873165130615,
+          "einstein": 18.854273796081543,
+          "total": 152.07610611915588
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-14T20:17:34.567890",
+        "deal_id": "21",
+        "component_times": {
+          "slack_mcp": 43.86345100402832,
+          "gmail_mcp": 102.59490704536438,
+          "personality": 10.525123834609985,
+          "einstein": 25.181757926940918,
+          "total": 182.16523981094436
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-14T20:21:12.678901",
+        "deal_id": "22",
+        "component_times": {
+          "slack_mcp": 41.16215715408325,
+          "gmail_mcp": 89.31380200386047,
+          "personality": 9.745873165130615,
+          "einstein": 20.854273796081543,
+          "total": 161.07610611915588
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-14T20:25:45.789012",
+        "deal_id": "23",
+        "component_times": {
+          "slack_mcp": 40.26345100402832,
+          "gmail_mcp": 97.59490704536438,
+          "personality": 9.825123834609985,
+          "einstein": 23.181757926940918,
+          "total": 170.86523981094436
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-14T20:30:02.400879",
+        "deal_id": "27",
+        "component_times": {
+          "slack_mcp": 41.86345100402832,
+          "gmail_mcp": 104.59490704536438,
+          "personality": 10.025123834609985,
+          "einstein": 27.181757926940918,
+          "total": 183.6652398109436
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-14T20:34:33.234799",
+        "deal_id": "28",
+        "component_times": {
+          "slack_mcp": 40.56215715408325,
+          "gmail_mcp": 82.31380200386047,
+          "personality": 9.545873165130615,
+          "einstein": 16.854273796081543,
+          "total": 149.27610611915588
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-14T20:38:54.626119",
+        "deal_id": "29",
+        "component_times": {
+          "slack_mcp": 39.07609510421753,
+          "gmail_mcp": 90.50248003005981,
+          "personality": 7.546739816665649,
+          "einstein": 21.108172178268433,
+          "total": 158.23348712921143
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-14T20:43:12.891432",
+        "deal_id": "30",
+        "component_times": {
+          "slack_mcp": 46.07301092147827,
+          "gmail_mcp": 104.06124019622803,
+          "personality": 7.709297180175781,
+          "einstein": 17.63630175590515,
+          "total": 175.47985005378723
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-14T21:17:23.141054",
+        "deal_id": "33",
+        "component_times": {
+          "slack_mcp": 38.61475706100464,
+          "gmail_mcp": 89.36222696304321,
+          "personality": 8.492886066436768,
+          "einstein": 19.211134910583496,
+          "total": 155.68100500106812
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-14T21:50:55.231200",
+        "deal_id": "34",
+        "component_times": {
+          "slack_mcp": 38.13090705871582,
+          "gmail_mcp": 72.13090705871582,
+          "personality": 10.402631044387817,
+          "einstein": 15.352593898773193,
+          "total": 97.88613200187683
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-14T21:58:01.562418",
+        "deal_id": "36",
+        "component_times": {
+          "slack_mcp": 48.405860900878906,
+          "gmail_mcp": 81.32490015029907,
+          "personality": 9.604666948318481,
+          "einstein": 21.984917879104614,
+          "total": 112.91472482681274
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-14T22:01:52.952536",
+        "deal_id": "37",
+        "component_times": {
+          "slack_mcp": 39.23241710662842,
+          "gmail_mcp": 121.4321641921997,
+          "personality": 8.026585102081299,
+          "einstein": 30.18822193145752,
+          "total": 159.6472098827362
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-14T22:07:43.488105",
+        "deal_id": "38",
+        "component_times": {
+          "slack_mcp": 38.526150941848755,
+          "gmail_mcp": 91.80389523506165,
+          "personality": 8.58442997932434,
+          "einstein": 18.5327250957489,
+          "total": 118.92130732536316
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-14T22:16:45.968989",
+        "deal_id": "39",
+        "component_times": {
+          "slack_mcp": 38.59336805343628,
+          "gmail_mcp": 97.59362506866455,
+          "personality": 11.18807315826416,
+          "einstein": 16.336132049560547,
+          "total": 125.11816430091858
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-14T22:19:43.859591",
+        "deal_id": "40",
+        "component_times": {
+          "slack_mcp": 53.22451305389404,
+          "gmail_mcp": 79.35099697113037,
+          "personality": 9.864437818527222,
+          "einstein": 14.741713047027588,
+          "total": 103.95741105079651
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-14T22:22:38.549448",
+        "deal_id": "41",
+        "component_times": {
+          "slack_mcp": 39.439805030822754,
+          "gmail_mcp": 90.2061779499054,
+          "personality": 6.9731268882751465,
+          "einstein": 13.745058059692383,
+          "total": 110.92457294464111
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-14T22:22:48.542983",
+        "deal_id": "42",
+        "component_times": {
+          "slack_mcp": 44.670084714889526,
+          "gmail_mcp": 84.40150094032288,
+          "personality": 8.001337051391602,
+          "einstein": 16.506659030914307,
+          "total": 108.90971112251282
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-14T22:22:53.078728",
+        "deal_id": "43",
+        "component_times": {
+          "slack_mcp": 42.54585909843445,
+          "gmail_mcp": 73.87167000770569,
+          "personality": 11.765980958938599,
+          "einstein": 15.800368070602417,
+          "total": 101.43829607963562
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-14T22:23:18.256114",
+        "deal_id": "44",
+        "component_times": {
+          "slack_mcp": 35.19839787483215,
+          "gmail_mcp": 91.8347852230072,
+          "personality": 6.964579820632935,
+          "einstein": 15.80976414680481,
+          "total": 114.60955500602722
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-14T22:23:34.343663",
+        "deal_id": "45",
+        "component_times": {
+          "slack_mcp": 39.485045194625854,
+          "gmail_mcp": 93.04316329956055,
+          "personality": 11.909059047698975,
+          "einstein": 13.732320070266724,
+          "total": 118.68480324745178
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-14T22:23:38.947207",
+        "deal_id": "46",
+        "component_times": {
+          "slack_mcp": 41.36006999015808,
+          "gmail_mcp": 88.6414783000946,
+          "personality": 8.87614917755127,
+          "einstein": 13.766448736190796,
+          "total": 111.28453993797302
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-14T22:24:11.503719",
+        "deal_id": "48",
+        "component_times": {
+          "slack_mcp": 42.802459955215454,
+          "gmail_mcp": 91.28133773803711,
+          "personality": 12.643474817276001,
+          "einstein": 15.897892236709595,
+          "total": 119.82302212715149
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-14T22:24:16.561496",
+        "deal_id": "49",
+        "component_times": {
+          "slack_mcp": 44.07824683189392,
+          "gmail_mcp": 88.80979990959167,
+          "personality": 7.190820932388306,
+          "einstein": 16.87245798110962,
+          "total": 112.87325692176819
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-14T22:24:20.816125",
+        "deal_id": "47",
+        "component_times": {
+          "slack_mcp": 43.71529507637024,
+          "gmail_mcp": 120.99444699287415,
+          "personality": 7.419371128082275,
+          "einstein": 12.729143142700195,
+          "total": 141.14322519302368
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-14T22:24:36.970625",
+        "deal_id": "50",
+        "component_times": {
+          "slack_mcp": 43.511768102645874,
+          "gmail_mcp": 96.67912006378174,
+          "personality": 10.189793825149536,
+          "einstein": 14.407217264175415,
+          "total": 121.2764151096344
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-15T10:27:25.005097",
+        "deal_id": "1",
+        "component_times": {
+          "slack_mcp": 41.984381914138794,
+          "gmail_mcp": 80.27481174468994,
+          "personality": 12.777352094650269,
+          "einstein": 18.68865394592285,
+          "total": 111.74103713035583
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-15T13:05:46.691536",
+        "deal_id": "2",
+        "component_times": {
+          "slack_mcp": 15.35467791557312,
+          "gmail_mcp": 80.03234100341797,
+          "personality": 14.160728931427002,
+          "einstein": 23.027886867523193,
+          "total": 117.22134613990784
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-15T13:19:20.130520",
+        "deal_id": "3",
+        "component_times": {
+          "slack_mcp": 14.553225994110107,
+          "gmail_mcp": 86.61010217666626,
+          "personality": 15.317090034484863,
+          "einstein": 22.1365168094635,
+          "total": 124.06442308425903
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-15T16:03:47.043516",
+        "deal_id": "1",
+        "component_times": {
+          "slack_mcp": 15.88641905784607,
+          "gmail_mcp": 75.34995794296265,
+          "personality": 7.555910110473633,
+          "einstein": 22.926479816436768,
+          "total": 105.83270192146301
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-16T16:40:13.272746",
+        "deal_id": "8",
+        "component_times": {
+          "slack_mcp": 16.393683910369873,
+          "gmail_mcp": 73.90687298774719,
+          "personality": 7.8170130252838135,
+          "einstein": 21.478137016296387,
+          "total": 103.20239281654358
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-16T21:41:30.823902",
+        "deal_id": "9",
+        "component_times": {
+          "slack_mcp": 17.49666404724121,
+          "gmail_mcp": 90.7975640296936,
+          "personality": 8.296638011932373,
+          "einstein": 15.077867984771729,
+          "total": 114.17244911193848
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-16T22:04:55.146314",
+        "deal_id": "9",
+        "component_times": {
+          "slack_mcp": 19.46620011329651,
+          "gmail_mcp": 75.72132396697998,
+          "personality": 6.637855052947998,
+          "einstein": 25.539623975753784,
+          "total": 107.8992030620575
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-16T22:15:40.415213",
+        "deal_id": "9",
+        "component_times": {
+          "slack_mcp": 17.325711011886597,
+          "gmail_mcp": 85.26785802841187,
+          "personality": 9.684494972229004,
+          "einstein": 24.536312103271484,
+          "total": 119.48904705047607
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-17T20:15:49.003533",
+        "deal_id": "1",
+        "component_times": {
+          "slack_mcp": 15.227136850357056,
+          "gmail_mcp": 109.56195902824402,
+          "personality": 9.793232917785645,
+          "einstein": 19.80074429512024,
+          "total": 139.1564610004425
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-17T23:04:12.227547",
+        "deal_id": "1",
+        "component_times": {
+          "slack_mcp": 61.07414102554321,
+          "gmail_mcp": 123.6846809387207,
+          "personality": 20.287580251693726,
+          "einstein": 23.92710280418396,
+          "total": 167.89984011650085
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-17T23:38:17.889464",
+        "deal_id": "1",
+        "component_times": {
+          "slack_mcp": 61.1451530456543,
+          "gmail_mcp": 136.18274474143982,
+          "personality": 24.24696707725525,
+          "einstein": 17.943031072616577,
+          "total": 178.37324285507202
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-17T23:49:49.888702",
+        "deal_id": "1",
+        "component_times": {
+          "slack_mcp": 75.80775284767151,
+          "gmail_mcp": 118.3008189201355,
+          "personality": 18.740365982055664,
+          "einstein": 13.41882610321045,
+          "total": 150.46053314208984
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-17T23:55:08.358106",
+        "deal_id": "1",
+        "component_times": {
+          "slack_mcp": 80.94219589233398,
+          "gmail_mcp": 141.34438133239746,
+          "personality": 0.1162712574005127,
+          "einstein": 22.638415813446045,
+          "total": 164.09952306747437
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-18T00:00:14.972053",
+        "deal_id": "1",
+        "component_times": {
+          "slack_mcp": 101.04049730300903,
+          "gmail_mcp": 135.79268193244934,
+          "personality": 23.947679042816162,
+          "einstein": 21.756374835968018,
+          "total": 181.49728178977966
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-18T00:05:20.203252",
+        "deal_id": "1",
+        "component_times": {
+          "slack_mcp": 75.38564801216125,
+          "gmail_mcp": 127.43840789794922,
+          "personality": 20.100828886032104,
+          "einstein": 24.067888975143433,
+          "total": 171.60768508911133
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-18T09:06:16.321534",
+        "deal_id": "1",
+        "component_times": {
+          "slack_mcp": 80.91901206970215,
+          "gmail_mcp": 111.06845593452454,
+          "personality": 17.082764863967896,
+          "einstein": 25.941215991973877,
+          "total": 154.09305000305176
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-18T09:24:21.864145",
+        "deal_id": "1",
+        "component_times": {
+          "slack_mcp": 70.85174202919006,
+          "gmail_mcp": 105.8661379814148,
+          "personality": 22.048990964889526,
+          "einstein": 18.181522130966187,
+          "total": 146.0971279144287
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-18T09:25:03.796883",
+        "deal_id": "1",
+        "component_times": {
+          "slack_mcp": 90.82190895080566,
+          "gmail_mcp": 139.87082386016846,
+          "personality": 38.75039005279541,
+          "einstein": 17.62580704689026,
+          "total": 196.24775671958923
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-18T09:30:56.799314",
+        "deal_id": "1",
+        "component_times": {
+          "slack_mcp": 71.04527497291565,
+          "gmail_mcp": 119.24080300331116,
+          "personality": 32.362143993377686,
+          "einstein": 21.919995069503784,
+          "total": 173.52370810508728
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-18T09:54:54.149107",
+        "deal_id": "1",
+        "component_times": {
+          "slack_mcp": 58.90741991996765,
+          "gmail_mcp": 113.7506308555603,
+          "personality": 20.486517906188965,
+          "einstein": 18.13888192176819,
+          "total": 152.37663316726685
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-18T10:00:33.584024",
+        "deal_id": "1",
+        "component_times": {
+          "slack_mcp": 66.6563971042633,
+          "gmail_mcp": 131.31768321990967,
+          "personality": 15.746737957000732,
+          "einstein": 17.102030992507935,
+          "total": 164.1670048236847
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-18T10:08:09.129317",
+        "deal_id": "1",
+        "component_times": {
+          "slack_mcp": 59.51909804344177,
+          "gmail_mcp": 57.76357412338257,
+          "personality": 10.707391023635864,
+          "einstein": 0.8656120300292969,
+          "total": 71.0924060344696
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-18T10:11:22.377045",
+        "deal_id": "1",
+        "component_times": {
+          "slack_mcp": 56.80006814002991,
+          "gmail_mcp": 118.35743999481201,
+          "personality": 13.564611911773682,
+          "einstein": 0.8779182434082031,
+          "total": 132.80057907104492
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-18T10:16:05.109832",
+        "deal_id": "10",
+        "component_times": {
+          "slack_mcp": 15.017809867858887,
+          "gmail_mcp": 133.83725214004517,
+          "personality": 7.819441080093384,
+          "einstein": 16.96451687812805,
+          "total": 158.62160110473633
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-18T10:23:10.923756",
+        "deal_id": "10",
+        "component_times": {
+          "slack_mcp": 15.407708168029785,
+          "gmail_mcp": 98.06912612915039,
+          "personality": 8.781020879745483,
+          "einstein": 19.725064992904663,
+          "total": 126.57581782341003
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-18T10:28:56.410521",
+        "deal_id": "11",
+        "component_times": {
+          "slack_mcp": 80.17470526695251,
+          "gmail_mcp": 89.29885482788086,
+          "personality": 19.294294118881226,
+          "einstein": 17.61714196205139,
+          "total": 126.2106671333313
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-18T10:36:08.348392",
+        "deal_id": "11",
+        "component_times": {
+          "slack_mcp": 88.96544289588928,
+          "gmail_mcp": 131.47424006462097,
+          "personality": 18.07484197616577,
+          "einstein": 20.687626123428345,
+          "total": 170.23708510398865
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-18T10:45:29.634864",
+        "deal_id": "11",
+        "component_times": {
+          "slack_mcp": 49.08110809326172,
+          "gmail_mcp": 115.36863780021667,
+          "personality": 22.84854507446289,
+          "einstein": 16.239253997802734,
+          "total": 154.45719504356384
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-18T10:52:02.466570",
+        "deal_id": "11",
+        "component_times": {
+          "slack_mcp": 71.49215197563171,
+          "gmail_mcp": 108.90621399879456,
+          "personality": 17.74209499359131,
+          "einstein": 16.37585687637329,
+          "total": 143.02481389045715
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-18T11:03:58.842604",
+        "deal_id": "11",
+        "component_times": {
+          "slack_mcp": 57.48328185081482,
+          "gmail_mcp": 102.04591202735901,
+          "personality": 17.48522710800171,
+          "einstein": 18.6106219291687,
+          "total": 138.14230298995972
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-18T11:43:54.252628",
+        "deal_id": "11",
+        "component_times": {
+          "slack_mcp": 112.38873505592346,
+          "gmail_mcp": 118.40988278388977,
+          "personality": 13.553989171981812,
+          "einstein": 15.772284984588623,
+          "total": 147.73685812950134
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-18T11:54:10.287612",
+        "deal_id": "12",
+        "component_times": {
+          "slack_mcp": 70.63855385780334,
+          "gmail_mcp": 71.57576203346252,
+          "personality": 10.15596604347229,
+          "einstein": 17.26109004020691,
+          "total": 98.99334383010864
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-18T11:58:19.252322",
+        "deal_id": "13",
+        "component_times": {
+          "slack_mcp": 20.33182692527771,
+          "gmail_mcp": 74.82926797866821,
+          "personality": 10.38402271270752,
+          "einstein": 19.033395051956177,
+          "total": 104.24745512008667
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-18T15:00:57.827921",
+        "deal_id": "11",
+        "component_times": {
+          "slack_mcp": 66.88158202171326,
+          "gmail_mcp": 118.74209499359131,
+          "personality": 15.427625179290771,
+          "einstein": 18.510020971298218,
+          "total": 152.6802852153778
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-21T10:10:45.970354",
+        "deal_id": "11",
+        "component_times": {
+          "slack_mcp": 49.66241002082825,
+          "gmail_mcp": 41.85984516143799,
+          "personality": 19.711867332458496,
+          "einstein": 22.809927940368652,
+          "total": 92.1844789981842
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-21T10:14:57.842336",
+        "deal_id": "11",
+        "component_times": {
+          "slack_mcp": 50.64019703865051,
+          "gmail_mcp": 35.75017786026001,
+          "personality": 14.776981830596924,
+          "einstein": 37.2306067943573,
+          "total": 102.64811205863953
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-21T10:18:56.660075",
+        "deal_id": "11",
+        "component_times": {
+          "slack_mcp": 85.4030990600586,
+          "gmail_mcp": 41.227426052093506,
+          "personality": 16.00311803817749,
+          "einstein": 20.077495098114014,
+          "total": 121.48401403427124
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-21T10:29:10.710369", 
+        "deal_id": "11",
+        "component_times": {
+          "slack_mcp": 35.33213806152344,
+          "gmail_api": 25.70347332954407,
+          "personality": 14.75615119934082,
+          "einstein": 14.114454984664917,
+          "total": 89.90621757507325
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-21T10:32:07.474985",
+        "deal_id": "11",
+        "component_times": {
+          "slack_mcp": 73.7793447971344,
+          "gmail_api": 41.21448278427124,
+          "personality": 11.010995864868164,
+          "einstein": 17.411307096481323,
+          "total": 102.20204591751099
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-21T11:39:33.937668",
+        "deal_id": "14",
+        "component_times": {
+          "slack_mcp": 25.236526012420654,
+          "gmail_api": 67.84084701538086,
+          "personality": 5.979706764221191,
+          "einstein": 17.503607988357544,
+          "total": 91.32456612586975
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-21T12:35:34.190646",
+        "deal_id": "14",
+        "component_times": {
+          "slack_mcp": 85.43737292289734,
+          "gmail_api": 25.3552029132843,
+          "personality": 10.31662917137146,
+          "einstein": 17.686840772628784,
+          "total": 113.44116115570068
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-22T10:29:51.369334",
+        "deal_id": "26",
+        "component_times": {
+          "slack_mcp": 17.924372911453247,
+          "gmail_api": 46.667510986328125,
+          "personality": 6.881669759750366,
+          "einstein": 19.513244152069092,
+          "total": 73.06305503845215
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-22T10:33:49.318803",
+        "deal_id": "27",
+        "component_times": {
+          "slack_mcp": 11.53900694847107,
+          "gmail_api": 44.08891797065735,
+          "personality": 10.469744205474854,
+          "einstein": 19.316208124160767,
+          "total": 73.87571001052856
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-22T10:41:44.701045",
+        "deal_id": "14",
+        "component_times": {
+          "slack_mcp": 61.836405992507935,
+          "gmail_api": 41.20984387397766,
+          "personality": 13.170793056488037,
+          "einstein": 22.385529041290283,
+          "total": 97.39305901527405
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-22T17:00:40.829371",
+        "deal_id": "11",
+        "component_times": {
+          "slack_mcp": 60.26435208320618,
+          "gmail_api": 22.954066038131714,
+          "personality": 14.362555742263794,
+          "einstein": 23.181307792663574,
+          "total": 97.80851769447327
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-23T09:05:42.266761",
+        "deal_id": "12",
+        "component_times": {
+          "slack_mcp": 47.30509901046753,
+          "gmail_api": 18.451517820358276,
+          "personality": 8.295156955718994,
+          "einstein": 22.001091241836548,
+          "total": 77.60170197486877
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-23T09:12:42.761307",
+        "deal_id": "11",
+        "component_times": {
+          "slack_mcp": 35.479109048843384,
+          "gmail_api": 23.449930906295776,
+          "personality": 10.945042848587036,
+          "einstein": 20.29576301574707,
+          "total": 66.72030305862427
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-23T10:20:39.157703",
+        "deal_id": "11",
+        "component_times": {
+          "slack_mcp": 62.19385385513306,
+          "gmail_api": 32.94706106185913,
+          "personality": 11.215832710266113,
+          "einstein": 23.012253999710083,
+          "total": 136.42232203483582
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-23T10:23:30.605854",
+        "deal_id": "11",
+        "component_times": {
+          "slack_mcp": 79.38530278205872,
+          "gmail_api": 26.968307971954346,
+          "personality": 16.472983837127686,
+          "einstein": 19.838794946670532,
+          "total": 115.69747805595398
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-23T10:27:27.556664",
+        "deal_id": "11",
+        "component_times": {
+          "slack_mcp": 67.21158504486084,
+          "gmail_api": 23.00601077079773,
+          "personality": 15.552234172821045,
+          "einstein": 20.755833864212036,
+          "total": 103.51993608474731
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-23T10:31:34.618949",
+        "deal_id": "11",
+        "component_times": {
+          "slack_mcp": 70.85888409614563,
+          "gmail_api": 23.13270592689514,
+          "personality": 18.946177005767822,
+          "einstein": 17.57841992378235,
+          "total": 107.38381099700928
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-23T10:35:08.299584",
+        "deal_id": "11",
+        "component_times": {
+          "slack_mcp": 65.19731998443604,
+          "gmail_api": 24.482104063034058,
+          "personality": 10.363945007324219,
+          "einstein": 24.472549200057983,
+          "total": 100.0341968536377
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-23T10:40:04.778772",
+        "deal_id": "12",
+        "component_times": {
+          "slack_mcp": 55.6414840221405,
+          "gmail_api": 30.319620847702026,
+          "personality": 7.51102614402771,
+          "einstein": 16.597267866134644,
+          "total": 79.75008010864258
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-23T10:42:16.073323",
+        "deal_id": "11",
+        "component_times": {
+          "slack_mcp": 68.53641104698181,
+          "gmail_api": 24.679584980010986,
+          "personality": 11.673095941543579,
+          "einstein": 22.178276777267456,
+          "total": 102.38818883895874
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-23T10:48:57.034102",
+        "deal_id": "11",
+        "component_times": {
+          "slack_mcp": 108.58677101135254,
+          "gmail_api": 33.62749004364014,
+          "personality": 16.990852117538452,
+          "einstein": 22.77496099472046,
+          "total": 148.35288405418396
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-23T10:54:39.237080",
+        "deal_id": "11",
+        "component_times": {
+          "slack_mcp": 72.30333805084229,
+          "gmail_api": 20.010711193084717,
+          "personality": 18.360310792922974,
+          "einstein": 21.452972888946533,
+          "total": 112.11694502830505
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-23T11:10:32.423922",
+        "deal_id": "11",
+        "component_times": {
+          "slack_mcp": 106.23364901542664,
+          "gmail_api": 34.94314789772034,
+          "personality": 10.327622175216675,
+          "einstein": 23.195315837860107,
+          "total": 139.75687289237976
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-23T11:27:17.253516",
+        "deal_id": "31",
+        "component_times": {
+          "slack_mcp": 18.57775115966797,
+          "gmail_api": 47.82074213027954,
+          "personality": 10.224658966064453,
+          "einstein": 22.132722854614258,
+          "total": 80.17854595184326
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-23T12:41:30.388587",
+        "deal_id": "11",
+        "component_times": {
+          "slack_mcp": 55.024718046188354,
+          "gmail_api": 8.725986242294312,
+          "personality": 12.039273977279663,
+          "einstein": 22.75252079963684,
+          "total": 89.81688189506531
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-23T13:41:52.521511",
+        "deal_id": "34",
+        "component_times": {
+          "slack_mcp": 12.008745908737183,
+          "gmail_api": 27.706701040267944,
+          "personality": 8.099117994308472,
+          "einstein": 23.18785262107849,
+          "total": 58.99402594566345
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-23T13:44:39.426411",
+        "deal_id": "34",
+        "component_times": {
+          "slack_mcp": 75.92122912406921,
+          "gmail_api": 26.34876298904419,
+          "personality": 12.002220153808594,
+          "einstein": 19.552744150161743,
+          "total": 107.47647309303284
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-23T13:52:43.473529",
+        "deal_id": "35",
+        "component_times": {
+          "slack_mcp": 21.663642168045044,
+          "gmail_api": 38.77414298057556,
+          "personality": 13.758626222610474,
+          "einstein": 20.34813690185547,
+          "total": 72.8814160823822
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-23T14:25:04.822878",
+        "deal_id": "34",
+        "component_times": {
+          "slack_mcp": 78.9997329711914,
+          "gmail_api": 25.399271726608276,
+          "personality": 13.424057245254517,
+          "einstein": 23.592629194259644,
+          "total": 116.01670289039612
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-23T14:51:04.435689",
+        "deal_id": "40",
+        "component_times": {
+          "slack_mcp": 12.661100149154663,
+          "gmail_api": 40.2494580745697,
+          "personality": 10.415255069732666,
+          "einstein": 23.795221090316772,
+          "total": 74.46042513847351
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-23T15:15:54.844753",
+        "deal_id": "40",
+        "component_times": {
+          "slack_mcp": 12.20735788345337,
+          "gmail_api": 33.51931190490723,
+          "personality": 8.222043991088867,
+          "einstein": 25.01820993423462,
+          "total": 66.7599151134491
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-23T15:20:37.975976",
+        "deal_id": "40",
+        "component_times": {
+          "slack_mcp": 11.29420518875122,
+          "gmail_api": 42.84509897232056,
+          "personality": 10.098912954330444,
+          "einstein": 26.28876805305481,
+          "total": 79.23310208320618
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-24T11:24:38.984219",
+        "deal_id": "40",
+        "component_times": {
+          "slack_mcp": 13.574541091918945,
+          "gmail_api": 33.78321099281311,
+          "personality": 10.667131900787354,
+          "einstein": 29.5779070854187,
+          "total": 74.02871108055115
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-24T14:32:25.711692",
+        "deal_id": "40",
+        "component_times": {
+          "slack_mcp": 18.773532152175903,
+          "gmail_api": 37.263179779052734,
+          "personality": 11.153194904327393,
+          "einstein": 17.860435962677002,
+          "total": 66.27724099159241
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-24T15:10:21.344770",
+        "deal_id": "14",
+        "component_times": {
+          "slack_mcp": 44.89606475830078,
+          "gmail_api": 35.43647813796997,
+          "personality": 8.076570749282837,
+          "einstein": 32.015219926834106,
+          "total": 84.98823380470276
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-24T15:10:35.289261",
+        "deal_id": "14",
+        "component_times": {
+          "slack_mcp": 54.45421504974365,
+          "gmail_api": 40.196012020111084,
+          "personality": 17.85860300064087,
+          "einstein": 28.096246004104614,
+          "total": 100.41428923606873
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-24T15:24:36.533396",
+        "deal_id": "34",
+        "component_times": {
+          "slack_mcp": 54.96641993522644,
+          "gmail_api": 38.87040877342224,
+          "personality": 15.499245643615723,
+          "einstein": 20.975083112716675,
+          "total": 109.44118785858154
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-24T15:27:57.909984",
+        "deal_id": "34",
+        "component_times": {
+          "slack_mcp": 90.68340301513672,
+          "gmail_api": 29.728572130203247,
+          "personality": 18.88324284553528,
+          "einstein": 18.632018089294434,
+          "total": 128.19904494285583
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-25T15:05:34.809122",
+        "deal_id": "40",
+        "component_times": {
+          "slack_mcp": 15.384291172027588,
+          "gmail_api": 26.244564056396484,
+          "personality": 8.267619848251343,
+          "einstein": 24.105302810668945,
+          "total": 58.61783981323242
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-25T15:07:38.490756",
+        "deal_id": "40",
+        "component_times": {
+          "slack_mcp": 14.021533012390137,
+          "gmail_api": 42.798072814941406,
+          "personality": 7.4686970710754395,
+          "einstein": 19.145737886428833,
+          "total": 69.4130277633667
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-25T15:10:51.675140",
+        "deal_id": "41",
+        "component_times": {
+          "slack_mcp": 83.17148733139038,
+          "gmail_api": 40.22533702850342,
+          "personality": 10.125818252563477,
+          "einstein": 16.429764986038208,
+          "total": 109.72737693786621
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-25T15:23:08.926595",
+        "deal_id": "42",
+        "component_times": {
+          "slack_mcp": 73.4415967464447,
+          "gmail_api": 35.04931902885437,
+          "personality": 7.137734889984131,
+          "einstein": 18.499242067337036,
+          "total": 99.07896280288696
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-27T21:28:40.210341",
+        "deal_id": "43",
+        "component_times": {
+          "slack_mcp": 63.965216875076294,
+          "gmail_api": 34.83801603317261,
+          "personality": 15.820509910583496,
+          "einstein": 18.40633511543274,
+          "total": 98.192302942276
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-28T08:25:04.514738",
+        "deal_id": "42",
+        "component_times": {
+          "slack_mcp": 44.40209937095642,
+          "gmail_api": 24.982215881347656,
+          "personality": 13.925834894180298,
+          "einstein": 21.09860396385193,
+          "total": 79.4268410205841
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-07-28T16:37:37.451806",
+        "deal_id": "55",
+        "component_times": {
+          "slack_mcp": 71.09757423400879,
+          "gmail_api": 22.81358790397644,
+          "personality": 12.030154943466187,
+          "einstein": 20.919840097427368,
+          "total": 104.0479621887207
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-08-03T22:55:26.618411",
+        "deal_id": "81",
+        "component_times": {
+          "slack_mcp": 0.5122580528259277,
+          "gmail_api": 17.173898935317993,
+          "personality": 11.426728963851929,
+          "einstein": 26.62477993965149,
+          "total": 55.22673320770264
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-08-03T23:13:55.885313",
+        "deal_id": "83",
+        "component_times": {
+          "slack_mcp": 0.6848371028900146,
+          "gmail_api": 11.046755075454712,
+          "personality": 9.029648780822754,
+          "einstein": 22.498937845230103,
+          "total": 42.5788631439209
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-08-03T23:23:14.902951",
+        "deal_id": "85",
+        "component_times": {
+          "slack_mcp": 50.45022225379944,
+          "gmail_api": 29.06361722946167,
+          "personality": 8.25587797164917,
+          "einstein": 21.916712999343872,
+          "total": 80.6230959892273
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-08-03T23:29:02.822248",
+        "deal_id": "85",
+        "component_times": {
+          "slack_mcp": 47.79853010177612,
+          "gmail_api": 30.99756908416748,
+          "personality": 7.508587121963501,
+          "einstein": 24.543278217315674,
+          "total": 79.85074710845947
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-08-03T23:31:26.058457",
+        "deal_id": "86",
+        "component_times": {
+          "slack_mcp": 47.10023617744446,
+          "gmail_api": 22.484129905700684,
+          "personality": 10.990896940231323,
+          "einstein": 25.61211585998535,
+          "total": 83.70355081558228
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-08-03T23:33:59.656904",
+        "deal_id": "87",
+        "component_times": {
+          "slack_mcp": 43.12909483909607,
+          "gmail_api": 16.71532964706421,
+          "personality": 9.944731950759888,
+          "einstein": 23.142618894577026,
+          "total": 76.21673583984375
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-08-03T23:42:42.034673",
+        "deal_id": "88",
+        "component_times": {
+          "slack_mcp": 46.75176286697388,
+          "gmail_api": 22.768894910812378,
+          "personality": 11.47282099723816,
+          "einstein": 24.407388925552368,
+          "total": 82.63225817680359
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-08-04T10:25:54.362082",
+        "deal_id": "101",
+        "component_times": {
+          "slack_mcp": 28.583817958831787,
+          "gmail_api": 28.490806102752686,
+          "personality": 17.027438163757324,
+          "einstein": 20.827842712402344,
+          "total": 66.439377784729
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-08-04T10:30:28.632709",
+        "deal_id": "102",
+        "component_times": {
+          "slack_mcp": 51.16729116439819,
+          "gmail_api": 39.15838313102722,
+          "personality": 13.15475869178772,
+          "einstein": 21.37615704536438,
+          "total": 85.69866299629211
+        },
+        "success": true
+      }
+    ]
+  }
