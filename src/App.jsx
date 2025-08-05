@@ -33,31 +33,6 @@ function App() {
     }
   }, [])
 
-  const handleFileInput = useCallback((event) => {
-    const file = event.target.files[0]
-    if (!file) return
-
-    setLoading(true)
-    setError(null)
-
-    const reader = new FileReader()
-    reader.onload = (e) => {
-      try {
-        const jsonData = JSON.parse(e.target.result)
-        setPerformanceData(jsonData)
-        setLoading(false)
-      } catch (err) {
-        setError('Invalid JSON file. Please check the file format.')
-        setLoading(false)
-      }
-    }
-    reader.onerror = () => {
-      setError('Error reading file. Please try again.')
-      setLoading(false)
-    }
-    reader.readAsText(file)
-  }, [])
-
   const handleComponentToggle = useCallback((component) => {
     setSelectedComponents(prev => ({
       ...prev,
@@ -107,23 +82,12 @@ function App() {
 
       <main className="app-main">
         <div className="file-input-section">
-          <input
-            type="file"
-            accept=".json"
-            onChange={handleFileInput}
-            className="file-input"
-            id="file-input"
-          />
-          <label htmlFor="file-input" className="file-input-label">
-            Choose JSON File
-          </label>
-          
           <button 
             onClick={loadPerformanceData}
-            className="refresh-button"
+            className="view-performance-button"
             disabled={loading}
           >
-            {loading ? 'Loading...' : 'Refresh Data'}
+            {loading ? 'Loading...' : 'View GoatForce Performance'}
           </button>
         </div>
 
